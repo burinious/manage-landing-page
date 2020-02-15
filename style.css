@@ -1,0 +1,148 @@
+body {
+    background: url(images/bg-simplify-section-desktop.svg);
+    text-align: center;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-bold";
+    color: hsl(228, 39%, 23%);
+}
+
+p {
+    color: hsl(227, 12%, 61%);
+    font-size: 16px;
+}
+
+/* navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+    position: 100%;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    float: left;
+}
+.nav-item {
+    padding: 0 18px;
+  }
+.nav-link {
+    font-size: 16px;
+    font-family: "Montserrat-light";
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    color: hsl(228, 39%, 23%);
+    
+
+}
+
+.nav-link:hover {
+    color: hsl(0, 0%, 98%)
+}
+
+.big-heading {
+    color: hsl(233, 12%, 13%);
+    font-weight: 700;
+}
+.big-heading2{
+    color: hsl(233, 12%, 13%);
+    font-weight: 400;
+}
+
+.big-heading3 {
+    color: hsl(0, 0%, 98%);
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* section */
+
+.white-section {
+    background-color: hsl(13, 100%, 96%);
+}
+
+
+.colored-section {
+    background-color: hsl(12, 88%, 59%);
+}
+
+
+.btn{
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    color: hsl(13, 100%, 96%);
+}
+.btn:hover{
+    background-color: hsl(12, 88%, 59%);
+    color: hsl(13, 100%, 96%);
+}
+.container-fluid {
+    padding: 7% 7%;
+    text-align: left;
+}
+
+#testimonial {
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+.testimonial-logo{
+    margin-bottom: -20px;
+    size: 20px;
+}
+.testimonial-title {
+    margin-bottom: 5%;
+  }
+.testimonial-box{
+background-color: hsl(0, 0%, 98%);
+padding: 30px;
+margin-bottom: 5%;
+}
+#team-work{
+    padding: 80px;
+}
+#team-work .btn {
+    background-color: hsl(13, 100%, 96%);
+    color: hsl(12, 88%, 59%);
+}
+
+input {
+    border-radius: 20px;
+}
+
+#footer {
+    background-color: hsl(233, 12%, 13%);
+    color: #fff;
+    text-align: left;
+}
+.footer-brand{
+    color: hsl(13, 100%, 96%);
+}
+.footer-icon:hover{
+   color: hsl(12, 88%, 59%);
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: hsl(12, 88%, 59%);
+    text-decoration: none;
+}
+
+@media (max-width: 1440px) {}
