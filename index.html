@@ -14,6 +14,9 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 
+  <!--Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+
   <!-- Bootstrap Scripts -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
@@ -27,7 +30,7 @@
 </head>
 
 <body>
-  <section class="white-section" id="title">
+  <section id="title">
     <div class="container-fluid">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg">
@@ -35,17 +38,16 @@
         <a class="navbar-brand" href="">
           <img src="/images/logo.svg" alt="manage logo">
         </a>
-        <!-- <a class="" href="">
-          <img src="/images/icon-close.svg" alt="manage logo">
-        </a>
-        <a class="" href="">
-          <img src="/images/icon-hamburger.svg" alt="manage logo">
-        </a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> <img src="/images/icon-hamburger.svg" alt="manage logo"> </span>
+        </button>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="expand" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="/images/icon-close.svg" alt="manage logo">
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
           <ul class="navbar-nav ml-auto">
 
             <li class="nav-item">
@@ -76,52 +78,55 @@
 
 
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h1 class="big-heading">Bring everyone together to build better products.</h1>
-          <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team
-            goals in view.</p>
-          <button class="btn">Get Started</button>
-        </div>
-        <div class="col-lg-6">
-          <a class="" href="">
-            <img src="/images/illustration-intro.svg" alt="manage logo">
-          </a>
+      <div class="title">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <h1 class="big-heading">Bring everyone together to build better products.</h1>
+            <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team
+              goals in view.</p>
+            <button class="btn">Get Started</button>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <a class="" href="">
+              <img src="/images/illustration-intro.svg" alt="manage logo">
+            </a>
+          </div>
         </div>
       </div>
 
 
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h2 class="big-heading2">What’s different about Manage?</h2>
-          <p>Manage provides all the functionality your team needs, without
-            the complexity. Our software is tailor-made for modern digital
-            product teams.</p>
-        </div>
+      <div class="different-title">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="big-heading2">What’s different about Manage?</h2>
+            <p>Manage provides all the functionality your team needs, without
+              the complexity. Our software is tailor-made for modern digital
+              product teams.</p>
+          </div>
 
-        <div class="col-lg-6">
-          <button class="btn">01</button>
-          <h3 class="different-title">Track company-wide progress</h3>
-          <p>See how your day-to-day tasks fit into the wider vision. Go from
-            tracking progress at the milestone level all the way done to the
-            smallest of details. Never lose sight of the bigger picture again.
-          </p>
+          <div class="col-lg-6">
+            <h3><button class="btn btn-diff">01</button> Track company-wide progress</h3>
+            <p>See how your day-to-day tasks fit into the wider vision. Go from
+              tracking progress at the milestone level all the way done to the
+              smallest of details. Never lose sight of the bigger picture again.
+            </p>
 
-          <button class="btn">02</button>
-          <h3 class="different-title">Track company-wide progress</h3>
-          <h3>Advanced built-in reports</h3>
-          <p>Set internal delivery estimates and track progress toward company
-            goals. Our customisable dashboard helps you build out the reports
-            you need to keep key stakeholders informed.
-          </p>
 
-          <button class="btn">03</button>
-          <h3 class="different-title"> you need in one place</h3>
-          <p>Stop jumping from one service to another to communicate, store files,
-            track tasks and share documents. Manage offers an all-in-one team
-            productivity solution.
-          </p>
+            <h3><button class="btn btn-diff">02</button> Advanced built-in reports</h3>
+            <p>Set internal delivery estimates and track progress toward company
+              goals. Our customisable dashboard helps you build out the reports
+              you need to keep key stakeholders informed.
+            </p>
+
+
+            <h3><button class="btn btn-diff">03</button> Everything you need in one place</h3>
+            <p>Stop jumping from one service to another to communicate, store files,
+              track tasks and share documents. Manage offers an all-in-one team
+              productivity solution.
+            </p>
+          </div>
+
         </div>
       </div>
     </div>
@@ -130,7 +135,7 @@
   <section id="testimonial" class="container-fluid">
     <div>
       <div>
-        <h2 class="testimonial-title">What they’ve said</h2 class="testimonial-title">
+        <h2 class="big-heading2">What they’ve said</h2>
       </div>
 
       <div class="row">
@@ -177,19 +182,21 @@
     </div>
   </section>
 
-  <section class="colored-section" id="team-work">
-    <div class="row">
-      <div class="col-lg-6">
-        <h1 class="big-heading3">Simplify how your team works today.</h1>
-      </div>
-      <div class="col-lg-6">
-        <button class="btn">Get Started</button>
+  <section id="team-work">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <h1 class="big-heading3">Simplify how your team works today.</h1>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <button class="btn">Get Started</button>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="footer">
-    <footer class="container py-5">
+    <footer class="container py-4">
       <div class="row">
         <div class="col-lg-3 col-md">
           <div>
@@ -234,9 +241,11 @@
         </div>
 
         <div class="col-lg-3 col-md">
-          <input type="text" placeholder="Updates in your inbox…">
-          <button class="btn">Go</button>
-          <small class="d-block mb-3 text-muted">Copyright 2020. All Rights Reserved</small>
+          <form action="post">
+            <input type="email" placeholder="Updates in your inbox…" required>
+            <button class="btn" type="submit">Go</button>
+            <small class="d-block mb-3 text-muted">Copyright 2020. All Rights Reserved</small>
+          </form>
         </div>
 
       </div>
