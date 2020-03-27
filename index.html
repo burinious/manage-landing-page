@@ -18,11 +18,11 @@
   <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
 
   <!-- Bootstrap Scripts -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
@@ -30,47 +30,27 @@
 </head>
 
 <body>
-  <section id="title">
-    <div class="container-fluid">
+  <div class="container-fluid">
+    <div class="container-design">
+      <div class="design"></div>
+
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg">
 
-        <a class="navbar-brand" href="">
-          <img src="/images/logo.svg" alt="manage logo">
-        </a>
+      <nav class="nav">
+        <img src="/images/logo.svg" alt="manage-logo">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"> <img src="/images/icon-hamburger.svg" alt="manage logo"> </span>
-        </button>
-        <!-- <button class="navbar-toggler" type="button" data-toggle="expand" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="/images/icon-close.svg" alt="manage logo">
-        </button> -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-          <ul class="navbar-nav ml-auto">
-
-            <li class="nav-item">
-              <a href="#" class="nav-link">Pricing</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="#" class="nav-link">Product</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="#" class="nav-link">About us</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Careers</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Community</a>
-            </li>
-          </ul>
-          <button class="btn">Get Started</button>
+        <ul class="nav__list">
+          <li class="nav__item">Pricing</li>
+          <li class="nav__item"> Product</li>
+          <li class="nav__item"> About Us</li>
+          <li class="nav__item"> Careers</li>
+          <li class="nav__item"> Community</li>
+        </ul>
+        <a href="#" class="btn button__nav"> Get Started </a>
+        <div class="nav__hamburguer">
+          <div class="nav__line1"></div>
+          <div class="nav__line2"></div>
+          <div class="nav__line3"></div>
         </div>
       </nav>
 
@@ -82,129 +62,140 @@
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <h1 class="big-heading">Bring everyone together to build better products.</h1>
-            <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team
+            <p class="title-text">Manage makes it simple for software teams to plan day-to-day tasks while keeping the
+              larger team
               goals in view.</p>
-            <button class="btn">Get Started</button>
+            <button class="btn"> <a href="#"> Get Started</a></button>
           </div>
           <div class="col-lg-6 col-md-12">
-            <a class="" href="">
-              <img src="/images/illustration-intro.svg" alt="manage logo">
-            </a>
+            <img class="title-image" src="/images/illustration-intro.svg" alt="manage logo">
           </div>
         </div>
       </div>
 
-
-
-      <div class="different-title">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 class="big-heading2">What’s different about Manage?</h2>
-            <p>Manage provides all the functionality your team needs, without
-              the complexity. Our software is tailor-made for modern digital
-              product teams.</p>
-          </div>
-
-          <div class="col-lg-6">
-            <h3><button class="btn btn-diff">01</button> Track company-wide progress</h3>
-            <p>See how your day-to-day tasks fit into the wider vision. Go from
-              tracking progress at the milestone level all the way done to the
-              smallest of details. Never lose sight of the bigger picture again.
-            </p>
-
-
-            <h3><button class="btn btn-diff">02</button> Advanced built-in reports</h3>
-            <p>Set internal delivery estimates and track progress toward company
-              goals. Our customisable dashboard helps you build out the reports
-              you need to keep key stakeholders informed.
-            </p>
-
-
-            <h3><button class="btn btn-diff">03</button> Everything you need in one place</h3>
-            <p>Stop jumping from one service to another to communicate, store files,
-              track tasks and share documents. Manage offers an all-in-one team
-              productivity solution.
-            </p>
-          </div>
-
-        </div>
-      </div>
     </div>
-  </section>
 
-  <section id="testimonial" class="container-fluid">
-    <div>
-      <div>
-        <h2 class="big-heading2">What they’ve said</h2>
+
+
+    <section class="different">
+      <div class="different-main">
+        <h2 class="different-title">What’s different about Manage?</h2>
+        <p class="different-text">Manage provides all the functionality your team needs, without
+          the complexity. Our software is tailor-made for modern digital
+          product teams.</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-3 ">
-          <img src="/images/avatar-anisha.png" class="testimonial-logo" alt="">
+      <div class="different-features">
+        <div>
+          <p class="different-number">01</p>
+          <h4 class="different-subtitle"> Track company-wide progress</h4>
+          <p class="different-brief">See how your day-to-day tasks fit into the wider vision. Go from
+            tracking progress at the milestone level all the way done to the
+            smallest of details. Never lose sight of the bigger picture again.
+          </p>
+        </div>
+        <div>
+          <p class="different-number">02</p>
+          <h4 class="different-subtitle"> Advanced built-in reports</h4>
+          <p class="different-brief">Set internal delivery estimates and track progress toward company
+            goals. Our customisable dashboard helps you build out the reports
+            you need to keep key stakeholders informed.
+          </p>
+        </div>
+
+        <div>
+          <p class="different-number">03</p>
+          <h4 class="different-subtitle"> Everything you need in one place</h4>
+          <p class="different-brief">Stop jumping from one service to another to communicate, store files,
+            track tasks and share documents. Manage offers an all-in-one team
+            productivity solution.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <section class="testimonial">
+    <div class="design2"></div>
+    <h2 class="testimonial-heading">What they’ve said</h2>
+
+
+    <div class="container-fluid">
+
+      <!-- slideshow-container -->
+      <div class="row slideshow-container">
+        <!-- <div class="carousel-inner"> -->
+        <!-- full-width images -->
+        <div class="col-lg-3 feature-box active container-fluid myslides">
+          <img class="feature-icon" src="/images/avatar-anisha.png" alt="">
           <div class="testimonial-box">
-            <h2>Anisha Li</h2>
-            <p>“Manage has supercharged our team’s workflow. The ability to maintain
+            <h3 class="feature-text">Anisha Li</h3>
+            <p class="testimonial-text">“Manage has supercharged our team’s workflow. The ability to maintain
               visibility on larger milestones at all times keeps everyone motivated.”</p>
           </div>
+        </div>
 
-        </div><!-- /.col-lg-3 -->
-        <div class="col-lg-3">
-          <img src="/images/avatar-ali.png" class="testimonial-logo" alt="">
+        <div class="col-lg-3 feature-box container-fluid myslides">
+          <img class="feature-icon" src="/images/avatar-ali.png" alt="">
           <div class="testimonial-box">
-            <h2>Ali Bravo</h2>
-            <p>“We have been able to cancel so many other subscriptions since using
+            <h3 class="feature-text">Ali Bravo</h3>
+            <p class="testimonial-text">“We have been able to cancel so many other subscriptions since using
               Manage. There is no more cross-channel confusion and everyone is much
               more focused.”</p>
           </div>
+        </div>
 
-
-        </div><!-- /.col-lg-3 -->
-        <div class="col-lg-3">
-          <img src="/images/avatar-richard.png" class="testimonial-logo" alt="">
+        <div class="col-lg-3 feature-box container-fluid myslides">
+          <img class="feature-icon" src="/images/avatar-richard.png" alt="">
           <div class="testimonial-box">
-            <h2>Richard Watts</h2>
-            <p> “Manage allows us to provide structure and process. It keeps us organized
+            <h3 class="feature-text">Richard Watts</h3>
+            <p class="testimonial-text">“Manage allows us to provide structure and process. It keeps us organized
               and focused. I can’t stop recommending them to everyone I talk to!”</p>
           </div>
+        </div>
 
-        </div><!-- /.col-lg-3 -->
-        <div class="col-lg-3">
-          <img src="/images/avatar-shanai.png" class="testimonial-logo" alt="">
+        <div class="col-lg-3 feature-box container-fluid myslides">
+          <img class="feature-icon" src="/images/avatar-shanai.png" alt="">
           <div class="testimonial-box">
-            <h2>Shanai Gough</h2>
-            <p> “Their software allows us to track, manage and collaborate on our projects
+            <h3 class="feature-text">Shanai Gough</h3>
+            <p class="testimonial-text">“Their software allows us to track, manage and collaborate on our projects
               from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
           </div>
-
         </div>
       </div>
-      <button class="btn">Get Started</button>
+      
+    <!--The dots/circles-->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
     </div>
+    </div>
+     </div>
+
+    <button class="btn"> <a href="#"> Get Started</a></button>
   </section>
 
+
+
+
   <section id="team-work">
-    <div class="container py-4">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <h1 class="big-heading3">Simplify how your team works today.</h1>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <button class="btn">Get Started</button>
-        </div>
-      </div>
+    <div class="teamwork-title">
+      <h2 class="teamwork-text"> Simplify how your team works today. </h4>
     </div>
+    <button class="btn"><a href="#"></a> Get Started </a></button>
   </section>
 
   <section id="footer">
-    <footer class="container py-4">
+    <footer class="container-fluid">
       <div class="row">
         <div class="col-lg-3 col-md">
           <div>
-            <a class="navbar-brand footer-brand" href="">
-              <img src="/images/logo2.svg" alt="manage-logo">
-            </a>
+            <img src="/images/logo2.svg" alt="manage-logo">
           </div>
-          <div id="footer-icon">
+          <div class="social-icon">
             <a class="footer-icon" href="">
               <img src="/images/icon-facebook.svg" alt="fb-logo">
             </a>
@@ -261,9 +252,8 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Ayoyinka Akomolafe</a>.
+    Coded by <a href="https://www.burinious.github.io">Ayoyinka Akomolafe</a>.
   </div>
-
   <script src="index.js"></script>
 </body>
 
